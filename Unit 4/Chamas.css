@@ -4,6 +4,6 @@ body {
 h1 {
 	color: white;
 	background-color: #cc9900;
-	text-shadow: 2px 2px;
+	text-shadow: 2px 2px black;
 	border: 3px ridge #804000;
 }
