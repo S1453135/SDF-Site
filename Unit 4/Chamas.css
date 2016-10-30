@@ -1,0 +1,9 @@
+body {
+	background-color: #99e699;
+}
+h1 {
+	color: white;
+	background-color: #cc9900;
+	text-shadow: 2px 2px;
+	border: 3px ridge #804000;
+}
