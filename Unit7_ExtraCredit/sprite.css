@@ -1,17 +1,17 @@
-a.button {
+#button {
 	display: block;
-	background: url("css-sprites.jpeg") no-repeat;
+	background-image: url("css-sprites.jpg") no-repeat;
 	width: 180px;
 	height: 49px;
 	background-position: 0 0;
 }
 
-a.button:hover {
+#button:hover {
 	background-position: 0 -50px;
 	height: 49px;
 }
 
-a.button:visited {
+#button:visited {
 	background-position: 0 -99px;
 	height: 49px
 }
