@@ -1,0 +1,19 @@
+.sprite {
+	background: url("sprites.jpeg") no-repeat;
+}
+
+.button {
+	width: 180px;
+	height: 49px;
+	background-position: 0 0;
+}
+
+.button:hover {
+	background-position: 0 -50px;
+	height: 49px;
+}
+
+.button:visited {
+	background-position: 0 -99px;
+	height: 49px
+}
