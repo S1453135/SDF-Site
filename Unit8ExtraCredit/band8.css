@@ -21,29 +21,14 @@ a:visited {
 }
 
 .row-Group {
-	width: 15%;
+	width: 30%;
 }
 .row-Tracks {
-	width: 60%;
+	width: 30%;
 }
 .row-Year {
 	width: 10%;
 }
 .row-Links {
-	width: 15%;
+	width: 30%;
 }
-
-/*
-td, th:nth-child(1) {
-	width: 15%;
-}
-td, th:nth-child(2) {
-	width: 60%;
-}
-td, th:nth-child(3) {
-	width: 10%;
-}
-td, th:nth-child(4) {
-	width: 15%;
-}
-*/
