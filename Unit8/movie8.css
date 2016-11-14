@@ -2,7 +2,7 @@ table {
 	width: 75%;
 	margin: auto;
 	background-color: #CC9966;
-	border: 5px black;
+	border: 5px solid black;
 	border-collapse: collapse;
 	}
 
@@ -15,5 +15,5 @@ td, th {
 }
 
 tr {
-	border-bottom: 2px black;
+	border-bottom: 2px solid black;
 }
