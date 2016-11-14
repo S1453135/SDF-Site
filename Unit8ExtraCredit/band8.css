@@ -3,7 +3,7 @@ table {
 	color: white;
 	background-image: -webkit-gradient(linear, 
 	left top, left bottom, from(#000000), to(#333333));
-	
+	table-layout: fixed;
 }
 
 td, th {
@@ -17,4 +17,21 @@ thead {
 
 a:visited {
 	color: #00FF00;
+}
+
+.settingwidth {
+	td:nth-child(1),
+td:nth-child(4)	{
+		width: 15%;
+	}
+}
+.settingwidth {
+	td:nth-child(3) {
+		width: 10%;
+	}
+}
+.settingwidth {
+	td:nth-child(2) {
+		width: 60%;
+	}
 }
