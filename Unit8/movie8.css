@@ -17,3 +17,8 @@ td, th {
 tr {
 	border-bottom: 2px solid black;
 }
+
+th {
+	background-color: 663300;
+	color: white;
+}
