@@ -19,16 +19,16 @@ a:visited {
 	color: #00FF00;
 }
 
-td:nth-child(1),
-td:nth-child(4)	{
+td, th:nth-child(1),
+td, th:nth-child(4)	{
 	width: 15%;
 }
 
-td:nth-child(3) {
+td, th:nth-child(3) {
 	width: 10%;
 }
 
 
-td:nth-child(2) {
+td, th:nth-child(2) {
 	width: 60%;
 }
