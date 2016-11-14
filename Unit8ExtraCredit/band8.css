@@ -4,6 +4,7 @@ table {
 	background-image: -webkit-gradient(linear, 
 	left top, left bottom, from(#000000), to(#333333));
 	table-layout: fixed;
+	width: 100%;
 }
 
 td, th {
@@ -19,6 +20,20 @@ a:visited {
 	color: #00FF00;
 }
 
+.row-Group {
+	width: 15%;
+}
+.row-Tracks {
+	width: 60%;
+}
+.row-Year {
+	width: 10%;
+}
+.row-Links {
+	width: 15%;
+}
+
+/*
 td, th:nth-child(1) {
 	width: 15%;
 }
@@ -31,5 +46,4 @@ td, th:nth-child(3) {
 td, th:nth-child(4) {
 	width: 15%;
 }
-
-
+*/
