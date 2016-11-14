@@ -1,0 +1,24 @@
+body {
+	background-image: "MountDoom.jpg" no-repeat;
+}
+
+table {
+	font-family: sans-serif;
+	color: white;
+	background-image: -webkit-gradient(linear, 
+	left top, left bottom, from(#000000), to(#333333));
+	
+}
+
+td, th {
+	padding: 5px;
+	border: 1px solid white;
+}
+
+thead {
+	font-weight: bold;
+}
+
+a:visited {
+	color: #00FF00;
+}
