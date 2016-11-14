@@ -1,0 +1,14 @@
+table {
+	width: 75%;
+	background-color: #CC9966;
+	border: 5px black;
+	border-collapse: collapse;
+	}
+
+tr:nth-of-type(even) {
+	background-color: FFCC99
+}
+
+td, th, tr {
+	border-bottom: 2px black;
+}
