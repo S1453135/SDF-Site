@@ -18,6 +18,6 @@ input, textarea {
 }
 
 input, textarea, select, fieldset {
-	box-sizing: border-box;
-	width: 200px;
+	-webkit-box-sizing: border-box;
+	width: 300px;
 }
