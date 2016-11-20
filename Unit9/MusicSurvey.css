@@ -12,10 +12,10 @@ fieldset {
 	background-color: #808080;
 	border: 3px solid #ff0000;
 }
-
+/*
 input, textarea {
 	display: block;
-}
+}*/
 
 input, textarea, select, fieldset {
 	-webkit-box-sizing: border-box;
