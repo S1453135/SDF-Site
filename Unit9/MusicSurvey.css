@@ -12,9 +12,6 @@ fieldset {
 	border: 3px solid #ff0000;
 	padding: 10px;
 	margin: 10px;
-}
-
-fieldset {
 	-webkit-box-sizing: border-box;
 	width: 500px;
 }
