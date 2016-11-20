@@ -11,6 +11,8 @@ form {
 fieldset {
 	background-color: #808080;
 	border: 3px solid #ff0000;
+	padding: 10px;
+	margin: 10px;
 }
 /*
 input, textarea {
@@ -19,5 +21,5 @@ input, textarea {
 
 input, textarea, select, fieldset {
 	-webkit-box-sizing: border-box;
-	width: 300px;
+	width: 500px;
 }
