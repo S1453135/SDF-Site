@@ -13,13 +13,10 @@ fieldset {
 	border: 3px solid #ff0000;
 	padding: 10px;
 	margin: 10px;
+	-webkit-box-sizing: border-box;
+	width: 500px;
 }
 /*
 input, textarea {
 	display: block;
 }*/
-
-input, textarea, select, fieldset {
-	-webkit-box-sizing: border-box;
-	width: 500px;
-}
