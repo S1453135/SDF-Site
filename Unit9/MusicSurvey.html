@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Music Survey</title>
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="MusicSurvey.css" />
+</head>
+
+<body>
+<form action="http://www.markmurtha.com/csis128/readform.asp" method="post">
+	Your name: <input type="text" name="username"><br>
+	Email address: <input type="email" name="email"><br>
+	<fieldset>
+	<legend>Select your favorite types of music:</legend>
+		<input type="checkbox" name="typeblues">Blues<br>
+		<input type="checkbox" name="typeclassical">Classical<br>
+		<input type="checkbox" name="typecountry">Country<br>
+		<input type="checkbox" name="typedisco">Disco<br>
+		<input type="checkbox" name="typeelectronic">Electronic (incl. EDM, techno)<br>
+		<input type="checkbox" name="typehiphop">Hip hop/Rap<br>
+		<input type="checkbox" name="typejazz">Jazz<br>
+		<input type="checkbox" name="typepop">Pop<br>
+		<input type="checkbox" name="typer&b">R&B<br>
+		<input type="checkbox" name="typerock">Rock (classic, punk, alternative)<br>
+		<input type="checkbox" name="typeother">Other<br>
+	</fieldset>
+	<fieldset>
+	<legend>Check how often you purchase music:</legend>
+		<input type="radio" name="frequency" value="weekly">Once a week or more<br>
+		<input type="radio" name="frequency" value="monthly">A few times a month<br>
+		<input type="radio" name="frequency" value="everyFewMonths">Every few months<br>
+		<input type="radio" name="frequency" value="yearly">Once a year or less
+	</fieldset>
+	<p>Locations where you listen to music:</p>
+		<select name="locations">
+			<option value="home">At home</option>
+			<option value="work">At work</option>
+			<option value="commuting">While commuting</option>
+			<option value="exercising">While exercising</option>
+			<option value="relaxing">While relaxing</option>
+		</select>
+	<br>
+	What role does music play in your life? <br>
+		<textarea name="musicRole" rows="3" cols="60">List responses here
+		</textarea>
+	<br>
+	<button type="submit">Submit form</button>
+	<button type="reset">Reset form</button>
+</form>
+
+</p>Form author: Margaret Chamas, 
+<a href="mailto:S1453135@student.mcckc.edu">S1453135@student.mcckc.edu</a></p>
+</body>
+</html>
