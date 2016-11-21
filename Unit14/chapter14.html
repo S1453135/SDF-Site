@@ -4,33 +4,13 @@
 <title>Chapter 14 JS testing</title>
 <meta charset="utf-8">
 <link type="text/css" rel="stylesheet" href="chapter14.css" />
-
-<script>
-var form = document.querySelector('form');
-var username = document.querySelector('username');
-var email = document.querySelector('email');
-var btn = document.querySelector('button');
-
-form.onsubmit = function(e) {
-	if (username.value === "" || email.value === "") {
-		e.preventDefault();
-		alert("You need to enter your name and email address!");
-		}
-/*	if (\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b.test(form.email.value)) {  
-		return (true);}  
-		alert("Please enter a valid email address!")  
-		return (false)	
-*/
-		}
-</script>	
-
 </head>
 
 <body>
-<form action="http://www.markmurtha.com/csis128/readform.asp" method="post">
-  Name: <input type="text" name="username" value="username">
+<form action="http://www.markmurtha.com/csis128/readform.asp" onsubmit="return validateForm()" method="post">
+  Name: <input type="text" name="username">
   <br>
-  E-Mail Address: <input type="text" name="email" value="Enter a valid email address">
+  E-Mail Address: <input type="text" name="email">
   <button type="submit">Submit</button>
 </form>
 
@@ -39,21 +19,19 @@ form.onsubmit = function(e) {
 </body>
 
 <script>
-var form = document.querySelector('form');
-var username = document.querySelector('username');
-var email = document.querySelector('email');
-var btn = document.querySelector('button');
-
-form.onsubmit = function(e) {
-	if (username.value === "" || email.value === "") {
-		e.preventDefault();
-		alert("You need to enter your name and email address!");
+var name = document.getElementByID("username").value;
+var emailAddr = document.getElementByID("email").value;
+if (name === '') {
+		alert("You need to enter your name!");
 		}
-/*	if (\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b.test(form.email.value)) {  
+if (emailAddr === '') {
+		alert("You need to enter your email address!");
+		}
+/*if (\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b.test(form.email.value)) {  
 		return (true);}  
 		alert("Please enter a valid email address!")  
 		return (false)	
-*/
-		}
+
+		} */
 </script>	
 </html>
