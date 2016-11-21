@@ -3,11 +3,31 @@
 <head>
 <title>Chapter 14 JS testing</title>
 <meta charset="utf-8">
-<link type="text/css" rel="stylesheet" href="chapter14.css" />
+<script>
+function validateForm () {
+var x = document.forms["myForm"]["username"].value;
+var y = document.forms["myForm"]["email"].value;
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if (x == '') {
+		alert("You need to enter your name!");
+		return false;
+		}
+else if (y === '') {
+		alert("You need to enter your email address!");
+		return false;
+		}
+if (y.match(mailformat)) {
+			return true;
+		}
+		else {
+		alert("You did not enter a valid email address!");
+		return false;}
+}
+</script>	
 </head>
 
 <body>
-<form action="http://www.markmurtha.com/csis128/readform.asp" onsubmit="return validateForm()" method="post">
+<form name="myForm" action="http://www.markmurtha.com/csis128/readform.asp" onsubmit="return validateForm()" method="post">
   Name: <input type="text" name="username">
   <br>
   E-Mail Address: <input type="text" name="email">
@@ -18,20 +38,4 @@
 <a href="mailto:S1453135@student.mcckc.edu">S1453135@student.mcckc.edu</a></p>
 </body>
 
-<script>
-var name = document.getElementByID("username").value;
-var emailAddr = document.getElementByID("email").value;
-if (name === '') {
-		alert("You need to enter your name!");
-		}
-if (emailAddr === '') {
-		alert("You need to enter your email address!");
-		}
-/*if (\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b.test(form.email.value)) {  
-		return (true);}  
-		alert("Please enter a valid email address!")  
-		return (false)	
-
-		} */
-</script>	
 </html>
