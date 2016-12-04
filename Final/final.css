@@ -38,8 +38,8 @@ th {
 	border-bottom: 3px black solid;
 }
 footer {
-	width:100%;
-	background-image: url('Footer.jpg'), width 100%;
+	width:80%;
+	background-image: url('Footer.jpg');
 }
 
 /*SLIDESHOW*/
