@@ -42,6 +42,9 @@ footer {
 	overflow: hidden;
 	background-repeat: no-repeat;
 }
+.clearfix {
+	overflow: auto;
+}
 
 /*SLIDESHOW*/
 .mainSlides {display:none}
