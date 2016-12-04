@@ -18,8 +18,6 @@ nav {
 }
 nav ul {
 	list-style-image: url('ivy.jpg');
-	width:5%;
-	height:5%;
 }
 article {
 	margin: 2em;
@@ -40,8 +38,8 @@ th {
 	border-bottom: 3px black solid;
 }
 footer {
-	width:700px;
 	background-image: url('Footer.jpg');
+	overflow: hidden;
 }
 
 /*SLIDESHOW*/
