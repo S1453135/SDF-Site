@@ -42,7 +42,7 @@ footer {
 	overflow: hidden;
 	background-repeat: no-repeat;
 }
-.clearfix {
+div.clearfix {
 	overflow: auto;
 }
 
