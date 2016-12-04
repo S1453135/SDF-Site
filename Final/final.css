@@ -32,9 +32,6 @@ article {
 	overflow: auto;
 	width:80%;
 }
-div.clearfix {
-	overflow: auto;
-}
 table {
 	border-collapse: collapse;
 	background-color: #e0d4be;
