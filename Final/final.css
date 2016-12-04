@@ -18,6 +18,8 @@ nav {
 }
 nav ul {
 	list-style-image: url('ivy.jpg');
+	width:5%;
+	height:5%;
 }
 article {
 	margin: 2em;
