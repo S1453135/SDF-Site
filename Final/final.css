@@ -1,0 +1,68 @@
+body {
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 0.75em;
+	background-color: #8bb789;
+	background-image: linear-gradient(to right, #3a6838 10%, #8bb789, #bfe0be);
+	color: black;
+}
+header {
+	text-align: center;
+}
+nav {
+	float: left;
+	max-width: 10em;
+	padding-right: 10px;
+	background-color: #e0d4be;
+	border: 2px solid #996633;
+	box-shadow: 0px 0px 10px #996633;
+}
+nav ul {
+	list-style-image: url('ivy.jpg');
+}
+article {
+	margin: 2em;
+	padding: 10px;
+	overflow: auto;
+	width:80%;
+}
+table {
+	border-collapse: collapse;
+	background-color: #e0d4be;
+	box-shadow: 0px 0px 20px black;
+}
+th,td {
+	padding: 5px;
+	border-right: 2px black solid;
+}
+th {
+	border-bottom: 3px black solid;
+}
+footer {
+	width:100%;
+	background-image: url('Footer.jpg'), width 100%;
+}
+
+/*SLIDESHOW*/
+.mainSlides {display:none}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
