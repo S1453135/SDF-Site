@@ -17,7 +17,7 @@ h1 {
 }
 nav {
 	float: left;
-	max-width: 10em;
+	width: 10em;
 	padding-right: 10px;
 	background-color: #e0d4be;
 	border: 2px solid #996633;
@@ -25,12 +25,24 @@ nav {
 }
 nav ul {
 	list-style-image: url('ivy2.jpg');
+	line-height: 40px;
+}
+nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 1em;
+	display: block;
+}
+nav a:hover {
+	color: white;
+	background-color: #1a562c;
+	border-radius: 5px;
 }
 article {
 	margin: 2em;
 	padding: 10px;
 	overflow: auto;
-	width:80%;
+	max-width:80%;
 }
 table {
 	border-collapse: collapse;
@@ -117,4 +129,22 @@ th {
 }
 .dot:hover {
 	background-color: #717171;
+}
+
+/*working on media/small screen versions*/
+@media only screen and (max-width:600px) {
+	nav {
+		float: none;
+		width: auto;
+	}
+	nav ul {
+		margin-left: 30px;
+		padding: 10px;
+		line-height: 20px;
+	}
+	article {
+		margin: 10px;
+		padding: 10px;
+		width: 100%;
+	}
 }
