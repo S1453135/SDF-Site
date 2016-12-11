@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="final.css" />
+</head>
+
+<body>
+<header><h1>Storm Dancer Farm</h1></header>
+<nav>
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="history.html">Farm History</a></li>
+	<li><a href="animals.html">About the Animals</a></li>
+	<li><a href="projects.html">Projects</a></li>
+	<li><a href="blog.html">Farm Blog</a></li>
+	<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+<article>
+<h2>Contact Us</h2>
+<section>
+<p>We believe that farms should be open to visits from the public and that communication between farmers and consumers is key to ensuring farming practices that benefit the animals, the people, and the environment.  Please feel free to ask about visiting to learn more about farm practices (or just to meet the animals!), or if you're interested in purchasing livestock or products.</p>
+<p><b>Email:</b> <a href="mailto:mwdunn88@gmail.com">mwdunn88@gmail.com</a><br>
+<b>Phone:</b> 607.220.4703<br>
+Facebook and Instagram pages are in the works.  Please check back for more updates!</p>
+<form action="mailto:mwdunn88@gmail.com" method="post" enctype="text/plain">
+	<label>Name: <input type="text" name="name"><br><br></label>
+	<label>Email: <input type="email" name="emailaddr"><br><br></label>
+	<label>Phone: <input type="text" name="phonenum"><br><br></label>
+	<label>Preferred method of contact:<br>
+	<input type="radio" name="contacttype" value="email" checked>Email<br>
+	<input type="radio" name="contacttype" value="call">Call<br>
+	<input type="radio" name="contacttype" value="text">Text<br></label>
+	<br>
+	<label>Reason for contacting us:  
+	<select name="Reason for contact">
+		<option value="farm visit">Visiting the farm</option>
+		<option value="stock sale">Purchasing livestock</option>
+		<option value="meat sale">Purchasing meat or eggs</option>
+		<option value="other">All other inquiries</option>
+	</select></label><br><br>
+	<label><textarea name="message" rows="10" cols="30">What can we help you with?</textarea></label>
+	<br><br>
+	Thank you for your interest!  We'll be in touch soon.<br><br>
+	<input type="reset" value="Reset">
+	<input type="submit" value="Submit">
+</form>
+</section>
+</article>
+</body>
+</html>
